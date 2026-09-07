@@ -1,11 +1,11 @@
 I spent most of the hour on the landing page. The brief said that matters more than the product, and its also the first thing anyone sees. I put a real entry on the page instead of a fake dashboard screenshot. If that specimen looks like the demo, the site feels like one thing.
 
-I pushed the design away from the usual generated look. Paper, serif, hairline rules, no card grid, no badges. Copy is a bit dry on purpose. If it reads like a committee wrote a SaaS homepage I missed.
+I focused on design. Paper, serif, hairline rules, no card grid, no badges. Copy is a bit dry on purpose. If it reads like a committee wrote a SaaS homepage I missed.
 
 What I did not build
-- no login, no database, no localStorage. they said persistence is optional and i didnt want a half-working save
+- no login, no database, no localStorage.
 - no search, tags, comments, assignees. thats a different tool
-- no pdf export. i talked about reading last quarter. the demo is just the log
+- no pdf export. I can add this functionality to export tasks as excel or pdf
 - no tooltip tour. four fields
 - no dark mode. the paper thing only works light
 
