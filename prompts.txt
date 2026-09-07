@@ -1,0 +1,151 @@
+ok react + vite. small product called Decision Log.
+
+its for writing down project decisions so people stop asking the same thing again. what we decided, why we decided it, when, and if its still active.
+
+two pages. home page first, this one matters more. has to feel like a real product a founder or pm would actually open, not a school project. explain it in plain words and put a big Try Demo button that opens the real app, not a fake screenshot.
+
+second page is the working demo. create a decision, open a row, mark it active or inactive. no login, no backend, no database. data can vanish on refresh its fine. seed a few rows so it doesnt look empty.
+
+dont make the usual ai looking site. no purple, no inter, no 3 feature cards with icons, no fake company logos, no unlock your workflow copy. i want it tighter, more like a log or a docket. paper background, serif for the big type, something like ibm plex for the ui. keep files few, dont split this into 20 components.
+
+do the home first so i can see it. then hook the demo. same topbar on both.
+
+---
+
+stop. no search, no tags, no comments, no people field, no export, no charts. the demo is add, open a row, mark active or inactive. if you already put extra stuff in, take it out.
+
+---
+
+why is the tab icon a truck. put something that looks like a log or a mark, not a random emoji
+
+---
+
+the ui is very poor. see this site, im not saying copy paste it, just as a reference for how clean a small tool can look: https://hos-trip-planner-spotter.vercel.app/
+
+same kind of restraint. white cards, quiet type, not a marketing template. landing and demo should feel like one product.
+
+---
+
+seed should look like real calls from this product, not lorem. newest on top. put one inactive in there so both states show without me typing.
+
+form is what, why, date. status starts active. if what or why is empty just say so, dont add a half row.
+
+---
+
+make mark active / inactive look proper, not a cheap toggle. also dont say superseded. use inactive.
+
+---
+
+remove the signup line and the nothing is stored line. we already know. just let people try it.
+
+---
+
+dont use words like folklore. keep the copy simple. if a sentence sounds clever delete it.
+
+---
+
+see the screenshot. those small color bars, keep two only. green for active, red for inactive. put it on the left of each row and make it feel like part of the card not a decoration.
+
+---
+
+bring the start of the reason a bit left. also reduce that designated text area a bit, its taking too much width.
+
+---
+
+i said move the text towards left. the why is still sitting too far right.
+
+---
+
+increase the why text so it spreads in that empty space. move Date and By a bit left, they are stuck at the end. and the green/red bar, extend it up and down so it touches the full height of the card.
+
+---
+
+what is this. no gap between the hero and the filter. the stats boxes look cheap, make them like real cards not three leftover rectangles.
+
+---
+
+text is again too right and the green red is not full height. dont undo the last fix.
+
+---
+
+when i add a decision it should sit on top and open. dates in the list like 7 Sep 2026, not 2026-09-07.
+
+hide inactive is fine. if the list goes empty just one line, no illustration.
+
+---
+
+http://localhost:5173/#/demo
+
+remove the hash. normal /demo path. if github pages breaks on refresh, fix that with a 404 redirect or whatever vite needs. i dont want # in the url.
+
+---
+
+demo list still feels messy. title, why, recorded, by. faint line between those columns. no icons on recorded and by, just the text. sort and hide inactive can stay, just dont put them in a white box.
+
+---
+
+decrease the width of the why text a bit
+
+---
+
+it became too tight. simple task, dont mess the whole row. keep recorded and by on the right.
+
+---
+
+increase the why width a bit
+
+---
+
+bit more
+
+---
+
+move recorded and by a bit left. maybe padding on the right before the arrow
+
+---
+
+also move the arrow a bit left
+
+---
+
+increase the why text bit
+
+---
+
+increase gap between recorded / by and the arrow
+
+---
+
+dividers between the columns are fine. remove the icons on recorded and by. they look extra.
+
+dont add anything else on the row. its done.
+
+---
+
+we changed the demo a lot. now do the home page again so it matches. same topbar, same cards, same paper look. leave the demo, only touch home.
+
+dont put the demo stats (6 recorded etc) on the home page, those numbers are from the seed not from a real product.
+
+and drop that headline "The reason you picked the harder option is already fading." its trying too hard.
+
+---
+
+home is still repeating the same idea three times. think something else. without a log / with a log is ok if the words are different. put two real entries on the page so people see the actual row, not a fake picture.
+
+---
+
+at the end can you add those what why when blocks. what, why, when, status. same white cards as the demo, small label on top.
+
+---
+
+Write one down before the next meeting eats it.
+
+put the what why when blocks above that part. that close block should finish the page.
+
+---
+
+check phone width. hero type was huge last time. nav just stack. empty form state and hide inactive should not look broken.
+
+---
+
+readme just how to run it. dont write a product essay in there.
